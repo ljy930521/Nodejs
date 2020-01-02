@@ -1,6 +1,8 @@
+var old;
 function makeTableRow(a,b,c)
 {
-    var row =  '<tr><td>&{a}</td><td>&{b}</td><td>&{c}</td></tr>';
+    var row =   `<tr><td>${a}</td><td>${b}</td><td>${c}</td></tr>`;
+    old ='<tr><td>'+ a +'<tr><td>'+ b +'<tr><td>'+ c 
     return row;
 
 }
