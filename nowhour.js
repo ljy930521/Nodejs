@@ -37,4 +37,4 @@ if (currentHour >= 12)
 console.log(    `${apm} ${currentHour}시`);
 
 apm = currentHour >=12 ? '오후' : '오전';
-currentHour = currentHour>= 13 ?
+currentHour = currentHour >= 13 ? '오전' : '오후';

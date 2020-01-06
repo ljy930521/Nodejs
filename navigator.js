@@ -31,7 +31,7 @@ var app =http.createServer(function(request,response)
 {
     //console.log(request.url);
     response.writeHead(200);
-    let msg =navMsg('내거친생각꽈~');
+    let msg =navMsg();
     response.end(msg);
 });
 app.listen(2000);
